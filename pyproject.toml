@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "youtube-shorts-parcer"
+version = "0.1.0"
+description = ""
+authors = ["KamyloMurad <kamylov@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+playwright = "^1.41.1"
+asyncio = "^3.4.3"
+pytest-playwright = "^0.4.3"
+aiohttp = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
